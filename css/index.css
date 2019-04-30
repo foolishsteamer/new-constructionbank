@@ -1,0 +1,427 @@
+header {
+  height: 50px;
+  background-color: #0066b3;
+}
+header .topBar {
+  margin: 0 100px;
+}
+header .topBar .left {
+  float: left;
+}
+header .topBar .left a {
+  font-size: 16px;
+  color: #1dd9e2;
+  line-height: 50px;
+  margin-right: 12px;
+}
+header .topBar .right {
+  float: right;
+}
+header .topBar .right a {
+  font-size: 16px;
+  color: #1dd9e2;
+  line-height: 50px;
+}
+header .topBar .right a.include {
+  margin-right: 12px;
+}
+header .topBar .right span {
+  font-size: 16px;
+  width: 2px;
+  height: 15px;
+  color: #1dd9e2;
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 12px;
+}
+.topnav .nav {
+  margin: 0 100px;
+}
+.topnav .nav .select {
+  width: 72px;
+  height: 24px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  line-height: 20px;
+  padding-left: 10px;
+  display: inline-block;
+  margin: 18px 0 0 0;
+  font-size: 12px;
+}
+.topnav .nav .select i {
+  margin-left: 20px;
+  color: #ccc;
+}
+.topnav .nav .line {
+  width: 1px;
+  height: 36px;
+  background-color: #eee;
+  margin: -8px 10px 0 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.topnav .nav ul {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+}
+.topnav .nav ul li {
+  float: left;
+}
+.topnav .nav ul li a {
+  display: block;
+  font-size: 18px;
+  margin-right: 18px;
+}
+.main {
+  background-color: #fa4037;
+}
+.main .row > img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.main .row .activitytitle {
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 0 0px 20px;
+}
+.main .row .activitytitle .activityobject.activityobject,
+.main .row .activitytitle .activitytime.activityobject {
+  padding: 60px 0 50px 0;
+}
+.main .row .activitytitle .activityobject.activitytime,
+.main .row .activitytitle .activitytime.activitytime {
+  padding: 0 0 60px 0;
+}
+.main .row .activitytitle .activityobject .title,
+.main .row .activitytitle .activitytime .title {
+  font-size: 35px;
+  color: #fc8c38;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.main .row .activitytitle .activityobject .content,
+.main .row .activitytitle .activitytime .content {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.main .row .activitycontent {
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 0 0px 20px;
+  padding: 50px 0 70px 0;
+  position: relative;
+}
+.main .row .activitycontent .title {
+  font-size: 35px;
+  color: #fc8c38;
+  line-height: 49px;
+  text-align: center;
+  margin: 0 auto 42px;
+  border: 4px solid #ff8b36;
+  border-radius: 30px;
+  width: 250px;
+  height: 60px;
+}
+.main .row .activitycontent .content {
+  line-height: 24px;
+  padding: 0 80px;
+}
+.main .row .activitycontent .content .contenttitle {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 42px;
+}
+.main .row .activitycontent .content .contentone,
+.main .row .activitycontent .content .contenttwo {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: 500;
+}
+.main .row .activitycontent .content .contentone span,
+.main .row .activitycontent .content .contenttwo span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ff8b36;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 20px;
+  text-align: center;
+}
+.main .row .activityrule {
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 0 0px 20px;
+  padding: 50px 0 70px 0;
+  position: relative;
+}
+.main .row .activityrule .title {
+  font-size: 35px;
+  color: #fc8c38;
+  line-height: 49px;
+  text-align: center;
+  margin: 0 auto 42px;
+  border: 4px solid #ff8b36;
+  border-radius: 30px;
+  width: 250px;
+  height: 60px;
+}
+.main .row .activityrule .content {
+  line-height: 24px;
+  padding: 0 80px;
+}
+.main .row .activityrule .content .contenttitle {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 42px;
+}
+.main .row .activityrule .content .contentone,
+.main .row .activityrule .content .contenttwo,
+.main .row .activityrule .content .contentthree,
+.main .row .activityrule .content .contentfour,
+.main .row .activityrule .content .contentfive,
+.main .row .activityrule .content .contentsix,
+.main .row .activityrule .content .contentseven,
+.main .row .activityrule .content .contenteight {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: 500;
+}
+.main .row .activityrule .content .contentone span,
+.main .row .activityrule .content .contenttwo span,
+.main .row .activityrule .content .contentthree span,
+.main .row .activityrule .content .contentfour span,
+.main .row .activityrule .content .contentfive span,
+.main .row .activityrule .content .contentsix span,
+.main .row .activityrule .content .contentseven span,
+.main .row .activityrule .content .contenteight span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ff8b36;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 20px;
+  text-align: center;
+}
+.main .row .activityrule .content .annotation {
+  margin-top: 30px;
+  color: #fd0000;
+  font-weight: 600;
+  font-size: 20px;
+}
+.bottomnav {
+  background-color: #025a9d;
+}
+.bottomnav .row {
+  display: flex;
+  margin: 0 100px;
+}
+.bottomnav .row > a:not(:last-of-type) {
+  margin-right: 19px;
+}
+.bottomnav .row > a img {
+  margin-top: 8px;
+  width: 94px;
+  height: 34px;
+}
+.bottomnav .row ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottomnav .row ul li {
+  margin-left: 19px;
+}
+.bottomnav .row ul li a {
+  line-height: 50px;
+  color: #1dd9e2;
+}
+.bottomnav .row ul li a:hover {
+  color: #fff;
+}
+.bottomnav .row ul li span {
+  line-height: 50px;
+  color: #1dd9e2;
+}
+footer {
+  background-color: #0066b3;
+}
+footer .row {
+  margin: 0 100px;
+}
+footer .row .copyright {
+  background-color: #0066b3;
+  display: flex;
+  padding-top: 28px;
+  flex-wrap: wrap;
+}
+footer .row .copyright > img {
+  width: 22px;
+  height: 28px;
+  margin: 10px 18px 0 0;
+}
+footer .row .copyright .content {
+  color: #fff;
+}
+footer .row .copyright .content span {
+  padding-right: 25px;
+  line-height: 2.0;
+  display: inline-block;
+}
+footer .row .copyright .qrcode > div {
+  float: left;
+  background: #fff;
+  width: 60px;
+  margin-left: 34px;
+  text-align: center;
+  color: #0066b3;
+  line-height: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+footer .row .copyright .qrcode > div img {
+  width: 57px;
+  height: 57px;
+}
+@media screen and (max-width: 1200px) {
+  header .topBar {
+    margin: 0 10px;
+  }
+  .topnav .nav {
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  footer .copyright > img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .row {
+    padding: 0 30px;
+  }
+  .main .row .activitytitle {
+    border-radius: 20px;
+    margin: 0 0px 20px;
+  }
+  .main .row .activitytitle .activityobject.activityobject,
+  .main .row .activitytitle .activitytime.activityobject {
+    padding: 30px 0 20px 0;
+  }
+  .main .row .activitytitle .activityobject.activitytime,
+  .main .row .activitytitle .activitytime.activitytime {
+    padding: 0 0 30px 0;
+  }
+  .main .row .activitytitle .activityobject .title,
+  .main .row .activitytitle .activitytime .title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 18px;
+  }
+  .main .row .activitytitle .activityobject .content,
+  .main .row .activitytitle .activitytime .content {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .main .row .activitycontent {
+    border-radius: 20px;
+    margin: 0 0px 10px;
+    padding: 25px 0 35px 0;
+  }
+  .main .row .activitycontent .title {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 auto 21px;
+    border: 2px solid #ff8b36;
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+  }
+  .main .row .activitycontent .content {
+    padding: 0 20px;
+  }
+  .main .row .activitycontent .content .contenttitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main .row .activitycontent .content .contentone,
+  .main .row .activitycontent .content .contenttwo {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .main .row .activitycontent .content .contentone span,
+  .main .row .activitycontent .content .contenttwo span {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    line-height: 20px;
+  }
+  .main .row .activityrule {
+    border-radius: 20px;
+    margin: 0 0px 10px;
+    padding: 25px 0 35px 0;
+  }
+  .main .row .activityrule .title {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 auto 21px;
+    border: 2px solid #ff8b36;
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+  }
+  .main .row .activityrule .content {
+    padding: 0 20px;
+  }
+  .main .row .activityrule .content .contentone,
+  .main .row .activityrule .content .contenttwo,
+  .main .row .activityrule .content .contentthree,
+  .main .row .activityrule .content .contentfour,
+  .main .row .activityrule .content .contentfive,
+  .main .row .activityrule .content .contentsix,
+  .main .row .activityrule .content .contentseven,
+  .main .row .activityrule .content .contenteight {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .main .row .activityrule .content .contentone span,
+  .main .row .activityrule .content .contenttwo span,
+  .main .row .activityrule .content .contentthree span,
+  .main .row .activityrule .content .contentfour span,
+  .main .row .activityrule .content .contentfive span,
+  .main .row .activityrule .content .contentsix span,
+  .main .row .activityrule .content .contentseven span,
+  .main .row .activityrule .content .contenteight span {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    line-height: 20px;
+  }
+  .main .row .activityrule .content .annotation {
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  .bottomnav .row {
+    margin: 0 30px;
+  }
+  .bottomnav .row ul li a {
+    line-height: 36px;
+  }
+  .bottomnav .row ul li span {
+    line-height: 36px;
+  }
+}
