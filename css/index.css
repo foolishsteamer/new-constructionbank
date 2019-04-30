@@ -416,12 +416,15 @@ footer .row .copyright .qrcode > div img {
     font-size: 2rem;
   }
   .bottomnav .row {
-    margin: 0 30px;
+    margin: 6px 30px;
   }
   .bottomnav .row ul li a {
     line-height: 36px;
   }
   .bottomnav .row ul li span {
     line-height: 36px;
+  }
+  footer .row {
+    margin: 0 30px;
   }
 }
