@@ -300,6 +300,9 @@ footer .row .copyright .qrcode > div img {
   }
 }
 @media screen and (max-width: 1000px) {
+  .bottomnav .row {
+    margin: 0 10px;
+  }
   footer .copyright > img {
     display: none;
   }
@@ -416,7 +419,7 @@ footer .row .copyright .qrcode > div img {
     font-size: 2rem;
   }
   .bottomnav .row {
-    margin: 6px 30px;
+    margin: 6px 10px;
   }
   .bottomnav .row ul li a {
     line-height: 36px;
@@ -426,5 +429,110 @@ footer .row .copyright .qrcode > div img {
   }
   footer .row {
     margin: 0 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bottomnav .row > a {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main .row {
+    padding: 0 15px;
+  }
+  .main .row .activitytitle {
+    padding: 0 10px;
+  }
+  .bottomnav .row ul li {
+    margin-left: 14px;
+  }
+  footer .row .copyright {
+    padding-top: 14px;
+  }
+  footer .row .copyright .qrcode > div {
+    margin-left: 0px;
+    margin-right: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 200px) {
+  .main .row .activitytitle .activityobject.activityobject,
+  .main .row .activitytitle .activitytime.activityobject {
+    padding: 10px 0 5px 0;
+  }
+  .main .row .activitytitle .activityobject.activitytime,
+  .main .row .activitytitle .activitytime.activitytime {
+    padding: 5px 0 10px 0;
+  }
+  .main .row .activitytitle .activityobject .title,
+  .main .row .activitytitle .activitytime .title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .main .row .activitytitle .activityobject .content,
+  .main .row .activitytitle .activitytime .content {
+    font-size: 12px;
+  }
+  .main .row .activitycontent,
+  .main .row .activityrule {
+    padding: 15px 0 15px 0;
+  }
+  .main .row .activitycontent .title,
+  .main .row .activityrule .title {
+    width: auto;
+    height: auto;
+    border: none;
+    margin: 0 auto 0;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .main .row .activitycontent .content,
+  .main .row .activityrule .content {
+    padding: 8px;
+  }
+  .main .row .activitycontent .content .contenttitle,
+  .main .row .activityrule .content .contenttitle,
+  .main .row .activitycontent .content .contentone,
+  .main .row .activityrule .content .contentone,
+  .main .row .activitycontent .content .contenttwo,
+  .main .row .activityrule .content .contenttwo,
+  .main .row .activitycontent .content .contentthree,
+  .main .row .activityrule .content .contentthree,
+  .main .row .activitycontent .content .contentfour,
+  .main .row .activityrule .content .contentfour,
+  .main .row .activitycontent .content .contentfive,
+  .main .row .activityrule .content .contentfive,
+  .main .row .activitycontent .content .contentsix,
+  .main .row .activityrule .content .contentsix,
+  .main .row .activitycontent .content .contentseven,
+  .main .row .activityrule .content .contentseven,
+  .main .row .activitycontent .content .contenteight,
+  .main .row .activityrule .content .contenteight {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .main .row .activitycontent .content .annotation,
+  .main .row .activityrule .content .annotation {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .bottomnav .row {
+    margin: 0;
+  }
+  .bottomnav .row ul {
+    padding: 6px 0;
+  }
+  .bottomnav .row ul li {
+    margin-left: 4px;
+  }
+  .bottomnav .row ul li a {
+    line-height: 26px;
+  }
+  .bottomnav .row ul li span {
+    line-height: 26px;
+  }
+  footer .row {
+    margin: 0;
   }
 }

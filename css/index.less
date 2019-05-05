@@ -364,10 +364,17 @@
             }
         }
     }
+
     @media screen and (max-width:1000px) {
+        .bottomnav {
+            .row {
+                margin: 0 10px;
+            }
+        }
+
         footer {
             .copyright {
-                >img{
+                >img {
                     display: none;
                 }
             }
@@ -378,38 +385,39 @@
         .main {
             .row {
                 padding: 0 30px;
+
                 .activitytitle {
                     border-radius: 20px;
                     margin: 0 0px 20px;
-    
+
                     .activityobject,
                     .activitytime {
                         &.activityobject {
                             padding: 30px 0 20px 0;
                         }
-    
+
                         &.activitytime {
                             padding: 0 0 30px 0;
                         }
-    
+
                         .title {
                             font-size: 24px;
                             line-height: 24px;
                             margin-bottom: 18px;
                         }
-    
+
                         .content {
                             font-size: 16px;
                             line-height: 16px;
                         }
                     }
                 }
-    
+
                 .activitycontent {
                     border-radius: 20px;
                     margin: 0 0px 10px;
                     padding: 25px 0 35px 0;
-    
+
                     .title {
                         font-size: 24px;
                         line-height: 36px;
@@ -419,23 +427,23 @@
                         width: 140px;
                         height: 40px;
                     }
-    
+
                     .content {
                         padding: 0 20px;
-    
+
                         .contenttitle {
                             font-weight: 600;
                             font-size: 16px;
                             line-height: 24px;
                         }
-    
+
                         .contentone,
                         .contenttwo {
                             margin-top: 12px;
                             font-size: 16px;
                             line-height: 24px;
                             font-weight: 500;
-    
+
                             span {
                                 width: 20px;
                                 height: 20px;
@@ -445,11 +453,12 @@
                         }
                     }
                 }
-    
+
                 .activityrule {
                     border-radius: 20px;
                     margin: 0 0px 10px;
                     padding: 25px 0 35px 0;
+
                     .title {
                         font-size: 24px;
                         line-height: 36px;
@@ -459,10 +468,10 @@
                         width: 140px;
                         height: 40px;
                     }
-    
+
                     .content {
                         padding: 0 20px;
-    
+
                         .contentone,
                         .contenttwo,
                         .contentthree,
@@ -475,7 +484,7 @@
                             font-size: 16px;
                             line-height: 24px;
                             font-weight: 500;
-    
+
                             span {
                                 width: 20px;
                                 height: 20px;
@@ -483,7 +492,7 @@
                                 line-height: 20px;
                             }
                         }
-    
+
                         .annotation {
                             margin-top: 3rem;
                             font-weight: 600;
@@ -493,24 +502,148 @@
                 }
             }
         }
-        .bottomnav{
-            .row{
-                margin: 6px 30px;
-                ul{
-                    li{
-                        a{
+
+        .bottomnav {
+            .row {
+                margin: 6px 10px;
+
+                ul {
+                    li {
+                        a {
                             line-height: 36px;
                         }
-                        span{
+
+                        span {
                             line-height: 36px;
                         }
                     }
                 }
             }
         }
+
+        footer {
+            .row {
+                margin: 0 30px;
+            }
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        .bottomnav {
+            .row {
+                >a {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        .main {
+            .row {
+                padding: 0 15px;
+
+                .activitytitle {
+                    padding: 0 10px;
+                }
+
+            }
+        }
+        .bottomnav{
+            .row{
+               ul{
+                   li{
+                       margin-left: 14px;
+                   }
+               } 
+            }
+        }
         footer{
             .row{
-                margin: 0 30px;
+                .copyright{
+                    padding-top: 14px;
+                    .qrcode{
+                        >div{
+                            margin-left: 0px;
+                            margin-right: 14px;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:200px){
+        .main{
+            .row{
+                .activitytitle{
+                    .activityobject,
+                    .activitytime{
+                        
+                        &.activityobject {
+                            padding: 10px 0 5px 0;
+                        }
+
+                        &.activitytime {
+                            padding: 5px 0 10px 0;
+                        }
+                        .title{
+                    font-size: 16px;
+                            margin-bottom: 8px;
+                        }
+                        .content{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .activitycontent,
+                .activityrule{
+                        padding: 15px 0 15px 0;
+                        .title{
+                        width: auto;
+                        height: auto;
+                        border: none;
+                        margin: 0 auto 0;
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+                    .content{
+                        padding: 8px;
+                        .contenttitle,.contentone,.contenttwo,.contentthree,.contentfour,.contentfive,.contentsix,.contentseven,.contenteight{
+                            font-size: 12px;
+                            line-height: 17px;
+                        }
+                        .annotation{
+                            font-size: 16px;
+                            line-height: 17px;
+                        }
+                    }
+                }
+            }
+        }
+        .bottomnav{
+            .row{
+                margin: 0;
+                ul{
+                    padding: 6px 0;
+                    li{
+                        margin-left: 4px;
+                        a{
+                            line-height: 26px;
+                            
+                        }
+                        span{
+                            line-height: 26px;
+
+                            }
+                    }
+                } 
+            }
+        }
+        footer{
+            .row{
+                margin: 0;
             }
         }
     }
